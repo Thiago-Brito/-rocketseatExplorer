@@ -1,5 +1,5 @@
 
-# Curso Explorer da RockeSeat
+# Curso Explorer da RocketSeat
 
 Projetos desenvolvidos ao longo do Curso Explorer da Rocketseat
 
