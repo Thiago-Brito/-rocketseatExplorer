@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 1008px;
+    margin: auto;
+}
+header{
+    padding-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+nav{
+    display: flex;
+    gap: 48px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #7D7987;
+}
+a:hover{
+    color: #1F1534;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+}
+h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 56px;
+}
+h1 span{
+    color: #89C5CC;
+}
+main p{
+    margin-top: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
+}
+p span{
+    font-weight: bold;
+}
+button{
+    margin-top: 40px;
+    display: flex;
+    width: 179px;
+    height: 56px;
+    justify-content: center;
+    gap: 10px;
+    align-items: flex-end;
+    padding-bottom: 15px;
+    border-radius: 4px;
+    background: #69B99D;
+    border: 0;
+}
+button p{
+    text-transform:capitalize;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #F9F9F9;  
+}
+button:hover{
+    background: #50947c;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 83px;
+    text-align: center;
+}
+#balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+footer span{
+    font-weight: bold;
+}
