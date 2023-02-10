@@ -1,4 +1,4 @@
-# Projeto 03 - FLutuar
+# Projeto 03 - Treine.me
 
 Terceiro projeto do curso Explorer 
 
