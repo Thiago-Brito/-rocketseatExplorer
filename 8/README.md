@@ -4,11 +4,11 @@ Oitavo projeto do curso Explorer
 - Aprendendo a criar um site responsivo
 
 
-- Mobile
+# Mobile
 
 ![](imagens/screenshot.png)
 
 
-- Desktop
+# Desktop
 
 ![](imagens/screenshot2.png)
