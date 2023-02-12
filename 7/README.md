@@ -1,5 +1,5 @@
 # Projeto 07 - Avalie sua mentoria
-Sexto projeto do curso Explorer 
+Setimo projeto do curso Explorer 
 
 
 
