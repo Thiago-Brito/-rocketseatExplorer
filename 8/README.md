@@ -1,4 +1,4 @@
-# Projeto 08 - Avalie sua mentoria
+# Projeto 08 - Projetos Web e Mobile
 Oitavo projeto do curso Explorer 
 
 - Aprendendo a criar um site responsivo
