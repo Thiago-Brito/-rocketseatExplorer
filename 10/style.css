@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --ff-text: 'Staatliches', sans-serif;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+body::before{
+    content:"";
+    width: 100%;
+    height: 29rem;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #8E9AAF;
+
+}
+.page{
+    text-align: center  ;
+}
+header{
+    margin-top: 3rem;
+}
+
+header h1{
+    background-color: #CBC0D3;
+    text-transform: uppercase;
+    color: white;
+    padding: 8px 0;
+    font-weight: 400;
+    margin-top: 2rem;
+    font-family: var(--ff-text);
+    font-size: 4rem;
+    line-height: 3.4rem;
+    margin-bottom: 5rem;
+    
+}
+main{
+    max-width: 38.4rem;
+    margin: auto;
+    display: grid;
+    gap: 3rem;
+    margin-bottom: 6rem;
+}
+p{
+    font-family: 'Palanquin', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    text-transform: none;
+    color: #23053A;
+    width: 30.5rem;
+    margin: auto;
+    margin-bottom: 3.2rem;
+}
+
+.card{
+    position: relative;
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.card p{
+    position: absolute;
+    top: 1.7rem;
+    right: 3rem;
+    font-family: var(--ff-text);
+    font-size: 2rem;
+    line-height: 3.4rem;
+    color: #4A4E69;
+    background-color: #FEEAFA;
+    border-radius: 20px;
+    padding: 2px 2.4rem;
+    width: fit-content;
+}
+.five, .six{
+    display: none;
+}
+
+footer{
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    main{
+        align-items: center;
+        max-width: none;
+        grid-template-areas:
+        "A B C"
+        "D B F"
+        "D E F";
+        margin-bottom: 350px;
+        
+    }
+    .page{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        height: 100vh;
+    }
+    p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.4rem;
+        line-height: 2rem;
+        color: #FFFFFF;
+        max-width: 275px;
+        height: 262px;
+        margin: auto;
+        margin-top: 3.2rem;
+    }
+    body::before{
+        content:"";
+        width: 33.3%;
+        height: 100%;
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background-color: #8E9AAF;
+    
+    }
+    .card p{
+        display: none;
+        
+    }
+    .first{
+        grid-area: A;
+        justify-self: center;
+        align-self: center;
+    }
+    .second{
+        grid-area: B;
+        justify-self: center;
+        align-self: center;
+    }
+    .third{
+        grid-area: E;
+        justify-self: center;
+        align-self: center;
+    }
+    .four{
+        grid-area: D;
+        justify-self: center;
+        align-self: center;
+    }
+   .five{
+        display: block;
+        grid-area: C;
+    }
+    .six{
+        display: block;
+        grid-area: F;
+    }
+    
+    footer{
+        display: block;
+        position: absolute;
+        bottom: 25rem;
+        left: 58%;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 2.8rem;
+        /* identical to box height, or 200% */
+
+        text-align: center;
+
+        color: #4A4E69;
+
+    }
+    span{
+        font-weight: bold;
+    }
+    
+}
