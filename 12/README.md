@@ -7,7 +7,7 @@ Decimo segundo projeto do curso Explorer
 
 # 1 Tela
 
-![caption](imagens/screenshot.mp4 / GIF)
+![](imagens/screenshot.png)
 
 
 # 2 Tela
