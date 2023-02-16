@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Dancing+Script&family=Montserrat:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    align-items: center;
+}
+
+main{
+    background-color: white;
+    padding: 4.8rem  6.4rem 6.4rem 6.4rem;
+    text-align: center;
+}
+h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #34355B;
+    margin-bottom: 1.5rem;
+}
+
+p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #34355B;
+    margin-bottom: 2rem;
+}
+
+
+#screen2{
+    align-items: center;
+    text-align: center;
+}
+
+#first{
+    background-color:  #E4EDF1;
+    max-width: 27.3rem;
+    margin: auto;
+    animation: showSentence 2s;
+}
+
+#first p{
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    text-align: center;
+    padding: 1rem;
+    
+    
+}
+
+
+@keyframes showSentence {
+    0%{
+        transform: translateY(100%);
+    }
+
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+
+#second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#screen1 img{
+    cursor: pointer;
+}
+#screen1 img:hover{
+    animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-5deg);
+        transform: translateY(-5%);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+        transform: translateY(-5%);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+button{
+    background-color: #FF9500;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 17.4rem;
+    padding: 1.6rem;
+    color: white;
+}
+
+button:hover{
+    background-color: #ca7b0c;
+}
+.hide{
+    display: none;
+}
