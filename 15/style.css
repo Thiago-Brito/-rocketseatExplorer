@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+
+body{
+    background: url("./imagens/mountains-universe-1\ 1.png") no-repeat center center fixed; ;
+    background-size: cover;
+    color: white;
+    display: grid;
+    height: 100vh;
+    text-align: center;
+}
+#universo{
+    background: url("./imagens/mountains-universe02.png") no-repeat center center fixed; ;
+    background-size: cover;
+    color: white;
+    display: grid;
+    height: 100vh;
+    text-align: justify;
+}
+
+header{
+    margin-top: 4rem;
+    margin-left: 7rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+a{
+    text-decoration: none;
+    color: #C4C4CC;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+a:hover{
+    color: white;
+}
+
+#firstMain{
+    align-items: center;
+    justify-self: center;
+    margin-top: -12rem;
+}
+
+h1{
+    color: #E1E1E6;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 125%;
+}
+
+button{
+    margin-top: 2.4rem;
+    border: none;
+    background: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    color: white;
+    padding: 1.2rem 3.2rem;
+
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.06);
+}
+
+
+/*Outras paginas*/
+
+.secondMain{
+    margin-top: -20rem;
+    justify-self: start;
+    margin-left: 7rem;
+    text-align: justify;
+}
+p{
+    text-align: justify;
+    max-width: 64rem;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 160%;
+
+    color: #e5e5eb;
+
+}
